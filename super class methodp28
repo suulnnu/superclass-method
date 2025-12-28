@@ -1,0 +1,10 @@
+class A:
+    def m1(self):
+        print("super class A:m1 method")
+class B(A):
+    def m1(self):
+        print("child class B:m1 method")
+        super().m1()
+        b=B()
+        b=m1()
+        
